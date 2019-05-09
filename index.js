@@ -21,7 +21,7 @@ const {
     SerialConnection,
     Specification,
     TcpConnection
-} = require('resol-vbus');
+} = require('./resol-vbus');
 
 
 const config = require('./config');
