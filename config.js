@@ -34,7 +34,7 @@ module.exports = {
     /**
      * Port number to bind the web server to.
      */
-    webServerPort: 3000,
+    webServerPort: 8083,
 
     /**
      * Interval (milliseconds) in which data will be uploaded to MQTT. A value of zero disables this functionality.

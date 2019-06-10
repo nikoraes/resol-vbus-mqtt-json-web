@@ -151,7 +151,7 @@ const startWebServer = async () => {
     app.use(morgan('dev'));
     app.use(express.query());
 
-    app.get('/api/v1/live-data', (req, res) => {
+    app.get('/', (req, res) => {
         generateJsonData().then(data => {
             res.status(200).type('application/json').end(data);
         }).then(null, (err) => {
