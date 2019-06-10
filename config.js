@@ -45,7 +45,7 @@ module.exports = {
      * MQTT connect parameters, https://github.com/mqttjs/MQTT.js#connect
      */
     mqttConnect: {
-        host: 'localhost',
+        host: '192.168.1.129',
         port: '1883',
         username: 'resol',
         password: 'niHERE.00'
