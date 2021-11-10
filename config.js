@@ -48,7 +48,7 @@ module.exports = {
         host: '192.168.1.129',
         port: '1883',
         username: 'resol',
-        password: 'niHERE.00'
+        password: process.env.mqttPassword
     },
 
     /**
